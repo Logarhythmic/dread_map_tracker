@@ -6,7 +6,8 @@
             { // Lay a bomb
                 "name": "bomb",
                 "access_rules": [
-                    "morph,regbomb"
+                    "morph,regbomb",
+                    "morph, bomb"
                 ],
                 "item_count": 1
             },
@@ -248,7 +249,7 @@
                 "access_rules": [
                     "@tpc/icfa",
                     "@tpc/icfa, anyjump, charge, cloak, [varia]",
-                    "@tpc/icfa, charge, varia, anyjump"
+                    "@tpc/icfa, charge, [varia], anyjump"
                 ],
                  "item_count": 1
             },

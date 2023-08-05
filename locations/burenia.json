@@ -281,7 +281,8 @@
                             "@tpb/ibfd, morph, spider",
                             "@tpb/ibfd, morph, anyjump",
                             "@tpb/ibfd, morph, gravity",
-                            "@tpb/ibfd, morph, grapple"
+                            "@tpb/ibfd, morph, grapple",
+                            "@tpb/ibfd, morph, bomb, [spider]"
 
                         ],
                         "map_locations": [

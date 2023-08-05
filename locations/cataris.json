@@ -572,7 +572,8 @@
                     {
                         "name": "Missile (Dairon Access)",
                         "access_rules": [
-                            "@tpc/icfd, speed"
+                            "@tpc/icfd, speed",
+                            "@tpc/icfa, speed"
 
                         ],
                         "map_locations": [
