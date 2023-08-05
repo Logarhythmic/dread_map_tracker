@@ -8,7 +8,7 @@ Formal releases will be added once the tracker is in a functional state. For now
 
 1. Download or clone this repository
 2. Compress all files in the repository into mdread_somedude.zip
-3. Move the .zp into C:\\*path*\\*to*\\EmoTracker\\packs\\
+3. Move the .zip into C:\\*path*\\*to*\\EmoTracker\\packs\\
 4. Start EmoTracker and select from the menu **Installed Packages > Metroid: Dread > Standard Map Tracker**
 
 ## Current Features
