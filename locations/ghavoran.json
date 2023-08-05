@@ -204,7 +204,8 @@
                         "name": "Missile+ (Above Super Missiles)",
                         "access_rules": [
                             "@tpg/igfb, grapple, morph, bomb, spider, super",
-                            "@tpg/igfd, grapple, super"
+                            "@tpg/igfd, super",
+                            "{@tpg/igfd}"
 
                         ],
                         "map_locations": [
@@ -225,7 +226,8 @@
                         "name": "Missile (Dairon Transport Access)",
                         "access_rules": [
                             "@tpg/igfb, grapple, morph, bomb, spider",
-                            "@tpg/igfd, grapple"
+                            "@tpg/igfd, grapple",
+                            "{@tpg/igfd}"
 
                         ],
                         "map_locations": [

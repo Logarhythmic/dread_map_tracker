@@ -149,7 +149,7 @@
                     {
                         "name": "Energy Part (Heat Hub)",
                         "access_rules": [
-                            "@tp/in_d, varia, morph, wide",
+                            "@tp/in_d, [varia], morph, wide",
                             "{@tp/in_d, morph, wide}"
 
                         ],

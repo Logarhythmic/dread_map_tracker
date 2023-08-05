@@ -81,7 +81,7 @@
                             "@tpf/iffdr",
                             "@tpf/iffdl",
                             "@tpf/iffg",
-                            "@tpf/iffctp"
+                            "@tpf/iffctp, pb"
                         ],
                         "map_locations": [
                             {
