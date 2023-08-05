@@ -404,7 +404,7 @@
                     {
                         "name": "Kraid",
                         "access_rules": [
-                            "morph, varia, charge, [spider]"
+                            "morph, varia, charge"
                         ],
                         "map_locations": [
                             {

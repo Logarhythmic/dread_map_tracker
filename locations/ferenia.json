@@ -81,7 +81,7 @@
                             "@tpf/iffdr",
                             "@tpf/iffdl",
                             "@tpf/iffg",
-                            "@tpf/iffctp, pb"
+                            "@tpf/iffctp, pb, screw, [gravity]"
                         ],
                         "map_locations": [
                             {
