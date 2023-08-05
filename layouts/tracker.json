@@ -1,0 +1,289 @@
+{
+    "shared_item_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "6,1",
+                        "h_alignment": "left",
+                        "rows": [
+                            [ "anybeam"    , "charge" , "grapple" , "morph", "anybomb" , "pb"    ],
+                            [ "anymissile" ,  "storm" ,  "spider" , "speed", "anyjump" , "screw" ],
+                            [ "anysuit"    ,  "cloak" ,  "flash"  , "radar",     ""    , "go"    ]
+                        ]
+                    },
+                    {
+                        "type": "array",
+                        "orientation": "vertial",
+                        "v_alignment": "right",
+                        "margin": "0,0,0,0",
+                        "content": [
+                            {
+                                "type": "itemgrid",
+                                "margin": "0,0",
+                                "item_margin": "6,1",
+                                "h_alignment": "left",
+                                "rows": [
+                                    [ "white",  "green" ,  "yellow"       ],
+                                    [ "blue" ,  "purple",   "red"         ],
+                                    [   ""   ,    "qr"  ,     "x"         ]
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+        "tracker_capture_item": {
+        "type": "container",
+        "content": {
+            "type": "itemgrid",
+            "item_margin": "6,1",
+            "h_alignment": "left",
+            "rows": [
+                [ "charge", "wide",  "super",  "storm", "grapple" ],
+                [ "varia",  "morph", "bomb",   "cross", "pb"      ],
+                [ "slide",  "space", "spider", "speed", "screw"   ],
+                [ "cloak",  "flash", "radar",  "etank", "epart"   ]
+            ]
+        }
+    },
+    "tracker_default": {
+        "type": "container",
+        "background": "#0c151c",
+        "content": {
+            "type": "dock",
+            "content": [
+                {
+                    "type": "dock",
+                    "dock": "left",
+                    "v_alignment": "stretch",
+                    "content": [
+                        {
+                            "type": "group",
+                            "header": "Items",
+                            "dock": "top",
+                            "content": {
+                                "type": "layout",
+                                "key": "shared_item_grid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Pinned Locations",
+                            "content": {
+                                "type": "recentpins",
+                                "style": "wrap",
+                                "h_alignment": "stretch",
+                                "v_alignment": "stretch",
+                                "orientation": "vertical",
+                                "compact": true
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Artaria",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "artaria"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Cataris",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "cataris"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Dairon",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "dairon"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Burenia",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "burenia"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Ghavoran",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "ghavoran"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Elun",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "elun"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Ferenia",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "ferenia"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Hanubia",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "hanubia"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "tracker_horizontal": {
+        "type": "container",
+        "background": "#0c151c",
+        "content": {
+            "type": "dock",
+            "content": [
+                {
+                    "type": "dock",
+                    "dock": "bottom",
+                    "content": [
+                        {
+                            "type": "group",
+                            "header": "Items",
+                            "dock": "left",
+                            "margin": "0,0,3,0",
+                            "content": {
+                                "type": "layout",
+                                "h_alignment": "center",
+                                "v_alignment": "center",
+                                "key": "shared_item_grid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Pinned Locations",
+                            "content": {
+                                "type": "recentpins",
+                                "style": "wrap",
+                                "h_alignment": "stretch",
+                                "v_alignment": "stretch",
+                                "orientation": "horizontal",
+                                "compact": true
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Artaria",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "artaria"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Cataris",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "cataris"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Dairon",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "dairon"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Burenia",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "burenia"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Ghavoran",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "ghavoran"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Elun",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "elun"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Ferenia",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "ferenia"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Hanubia",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "hanubia"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

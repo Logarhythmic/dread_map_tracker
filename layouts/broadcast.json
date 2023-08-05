@@ -1,0 +1,29 @@
+{
+    "tracker_broadcast": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "6,1",
+                        "h_alignment": "left",
+                        "item_size": 64,
+                        "rows": [
+                            ["anybeam", "charge", "grapple", "anymissile", "storm"],
+                            ["morph", "bomb", "cross", "pb", "screw"],
+                            ["spider","speed","anyjump","cloak", "radar"],
+                            ["anysuit", "flash", "", "", "go"],
+                            ["white", "green", "yellow", "blue", "purple", "red"]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

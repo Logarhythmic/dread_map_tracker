@@ -1,0 +1,488 @@
+[
+    {
+        "name": "burenia",
+        "color": "#1addd0",
+        "children": [
+            {
+                "name": "Major Items",
+                "chest_unopened_img": "images/major_unopened.png",
+                "chest_opened_img": "images/major_opened.png",
+                "children": [
+                    {
+                        "name": "Flash Shift",
+                        "access_rules": [
+                            "@tpb/ibfd, morph, spider",
+                            "@tpb/ibfd, morph, anyjump",
+                            "@tpb/ibfd, morph, flash",
+                            "@tpb/ibfd, morph, grapple"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "burenia",
+                                "x": 432,
+                                "y": 676
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Major Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Gravity Suit",
+                        "access_rules": [
+                            "@tpb/ibfa, @can/fly, @can_pb, morph, speed, diffusion, grapple",
+                            "@tpb/ibfa, speed, ice, morph, diffusion, grapple",
+                            "@tpb/ibfgtp, @can/pb, speed, diffusion, grapple",
+                            "@tpb/ibfgtp, morph, ice, anybomb, speed, diffusion, grapple",
+                            "@tpb/ibfa, @can/fly, @can_pb, morph, speed, wave, grapple",
+                            "@tpb/ibfa, speed, ice, morph, wave, grapple",
+                            "@tpb/ibfgtp, @can/pb, speed, wave, grapple",
+                            "@tpb/ibfgtp, morph, ice, anybomb, speed, wave, grapple",
+                            "@tpb/ibfa, @can/fly, @can_pb, morph, speed, cloak",
+                            "@tpb/ibfa, speed, ice, morph, cloak",
+                            "@tpb/ibfgtp, @can/pb, speed, cloak",
+                            "@tpb/ibfgtp, morph, ice, anybomb, speed, cloak"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "burenia",
+                                "x": 544,
+                                "y": 1086
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Major Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Energy Tank (Flash Alcove)",
+                        "access_rules": [
+                            "{@tpb/ibfd, morph, spider}",
+                            "@tpb/ibfd, morph, anyjump",
+                            "@tpb/ibfd, morph, flash",
+                            "@tpb/ibfd, morph, grapple"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "burenia",
+                                "x": 350,
+                                "y": 608
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Major Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Energy Tank (Lower Storm Gate)",
+                        "access_rules": [
+                            "@tpb/ibfd, morph, spider, grapple, bomb, plasma, storm",
+                            "@tpb/ibfgsr, @can/pb, gravity, screw, @can/fly, storm",
+                            "@tpb/ibfgsr, @can/pb, gravity, screw, speed, storm",
+                            "{@tpb/ibfd, morph, spider, grapple, bomb, plasma}",
+                            "{@tpb/ibfgsr, @can/pb, gravity, screw, @can/fly}",
+                            "{@tpb/ibfgsr, @can/pb, gravity, screw, speed}"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "burenia",
+                                "x": 396,
+                                "y": 1050
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Major Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Drogyga",
+                        "access_rules": [
+                            "@tpb/ibfd, grapple, spider, qr",
+                            "@tpb/ibfd, grapple, flash, qr",
+                            "@tpb/ibfd, grapple, space, qr",
+                            "@tpb/ibfd, grapple, gravity, anyjump, qr"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "burenia",
+                                "x": 390,
+                                "y": 160
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Major Item",
+                                "item_count": 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Minor Items",
+                "chest_unopened_img": "images/minor_unopened.png",
+                "chest_opened_img": "images/minor_opened.png",
+                "children": [
+                    {
+                        "name": "Energy Part (Upper Dairon Access)",
+                        "access_rules": [
+                            "@tpb/ibfd, speed",
+                            "@tpb/ibfd, flash, [speed]",
+                            "@tpb/ibfd, morph, cross, [speed]",
+                            "{@tpb/ibfd}"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "burenia",
+                                "x": 553,
+                                "y": 452
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Upper Burenia Hub)",
+                        "access_rules": [
+                            "@tpb/ibfd, qr"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "burenia",
+                                "x": 386,
+                                "y": 313
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile+ (Shutter Tunnel)",
+                        "access_rules": [
+                            "@tpb/ibfd, qr, [flash]",
+                            "@tpb/ibfd, qr, [space]"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "burenia",
+                                "x": 119,
+                                "y": 271
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Below Drogyga)",
+                        "access_rules": [
+                            "@tpb/ibfd, grapple, spider, qr",
+                            "@tpb/ibfd, grapple, flash, qr",
+                            "@tpb/ibfd, grapple, space, qr",
+                            "@tpb/ibfd, grapple, gravity, anyjump, qr",
+                            "@tpb/ibfd, grapple, [wave], qr"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "burenia",
+                                "x": 453,
+                                "y": 257
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Bomb Trap)",
+                        "access_rules": [
+                            "@tpb/ibfd, morph, spider",
+                            "@tpb/ibfd, morph, anyjump",
+                            "@tpb/ibfd, morph, flash",
+                            "@tpb/ibfd, morph, grapple"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "burenia",
+                                "x": 355,
+                                "y": 488
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Lower Dairon Access)",
+                        "access_rules": [
+                            "@tpb/ibfd, morph, cross",
+                            "@tpb/ibfd, morph, speed",
+                            "@tpb/ibfd, morph, [speed], flash",
+                            "@tpb/ibfd, morph, flash"
+                            // Need to add logic from lower dairon entrance
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "burenia",
+                                "x": 498,
+                                "y": 672
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile+ (Flooded Hub)",
+                        "access_rules": [
+                            "@tpb/ibfd, morph, spider",
+                            "@tpb/ibfd, morph, anyjump",
+                            "@tpb/ibfd, morph, gravity",
+                            "@tpb/ibfd, morph, grapple"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "burenia",
+                                "x": 241,
+                                "y": 869
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Spark Ceiling)",
+                        "access_rules": [
+                            "@tpb/ibfd, morph, gravity, speed"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "burenia",
+                                "x": 288,
+                                "y": 779
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Lower Burenia Access)",
+                        "access_rules": [
+                            "@tpb/ibfd, morph, spider, grapple, bomb, plasma",
+                            "@tpb/ibfd, morph, spider, gravity, bomb, plasma",
+                            "@tpb/ibfd, morph, spider, space, bomb, plasma",
+                            "@tpb/ibfgsr, @can/pb, gravity, screw, @can/fly",
+                            "@tpb/ibfgsr, @can/pb, gravity, screw, speed"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "burenia",
+                                "x": 191,
+                                "y": 870
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Power Bomb (Below Gravity)",
+                        "access_rules": [
+                            "@tpb/ibfd, morph, spider, grapple, bomb, plasma, speed, @can/pb",
+                            "@tpb/ibfd, morph, spider, gravity, bomb, plasma, screw, @can/pb, speed",
+                            "@tpb/ibfd, morph, spider, space, bomb, plasma, screw, @cam/pb, speed",
+                            "@tpb/ibfgsr, @can/pb, gravity, screw, @can/fly, speed",
+                            "@tpb/ibfgsr, @can/pb, gravity, screw, speed"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "burenia",
+                                "x": 584,
+                                "y": 1169
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Energy Part (Spark Puzzle Runway)",
+                        "access_rules": [
+                            "@tpb/ibfa, @can/fly, @can_pb, morph",
+                            "@tpb/ibfa, speed, ice, morph",
+                            "@tpb/ibfgtp, @can/pb",
+                            "@tpb/ibfgtp, morph, ice, anybomb"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "burenia",
+                                "x": 572,
+                                "y": 856
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile+ (Spark Puzzle)",
+                        "access_rules": [
+                            "@tpb/ibfa, @can/fly, @can_pb, morph, speed",
+                            "@tpb/ibfa, speed, ice, morph",
+                            "@tpb/ibfgtp, @can/pb, speed",
+                            "@tpb/ibfgtp, morph, ice, anybomb, speed"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "burenia",
+                                "x": 576,
+                                "y": 989
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Artaria Access)",
+                        "access_rules": [
+                            "@tpb/ibfa",
+                            "{@tpb/ibgtp, @can/pb, speed, grapple, diffusion, gravity}",
+                            "{@tpb/ibgtp, ic, morph, anybomb, speed, grapple, diffusion, gravity}",
+                            "{@tpb/ibgtp, @can/pb, speed, grapple, wave, gravity}",
+                            "{@tpb/ibgtp, ic, morph, anybomb, speed, grapple, wave, gravity}"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "burenia",
+                                "x": 934,
+                                "y": 953
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile+ (Gravity Tower)",
+                        "access_rules": [
+                            "@tpb/ibfa",
+                            "{@tpb/ibgtp, @can/pb, speed, grapple, diffusion, gravity}",
+                            "{@tpb/ibgtp, ic, morph, anybomb, speed, grapple, diffusion, gravity}",
+                            "{@tpb/ibgtp, @can/pb, speed, grapple, wave, gravity}",
+                            "{@tpb/ibgtp, ic, morph, anybomb, speed, grapple, wave, gravity}"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "burenia",
+                                "x": 703,
+                                "y": 960
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Twin Chozo Bots)",
+                        "access_rules": [
+                            "@tpb/ibfa, @can/fly",
+                            "@tpb/ibfa, speed"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "burenia",
+                                "x": 529,
+                                "y": 757
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

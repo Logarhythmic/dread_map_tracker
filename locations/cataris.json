@@ -1,0 +1,628 @@
+[
+    {
+        "name": "Cataris",
+        "color": "#c63923",
+        "children":[
+            {
+                "name": "Major Items",
+                "chest_unopened_img": "images/major_unopened.png",
+                "chest_opened_img": "images/major_opened.png",
+                "children": [
+                    {
+                        "name": "Diffusion Beam",
+                        "access_rules": [
+                            "morph,varia"
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "cataris",
+                                "x": 411,
+                                "y": 755
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Major Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },{
+                        "name": "Green EMMI",
+                        "access_rules": [
+                            // From Artaria Elevator
+                            "charge, cloak, wide, @can/fly",
+                            "charge, cloak, wide, spider",
+                            "charge, cloak, wide, speed",
+                            // From Red TP
+                            "morph, spider, charge, wide",
+                            "morph, @can/fly, charge, wide",
+                            "morph, anyjump, charge, wide"
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "cataris",
+                                "x": 539,
+                                "y": 261
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Major Item",
+                                "item_count": 0,
+                                "hosted_item": "green"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Energy Tank (Lava Hallway)",
+                        "access_rules": [
+                            // From Ataria Elevator
+                            "charge, cloak, @can/fly,varia",
+                            "charge, cloak, spider",
+                            "charge, cloak, speed, varia",
+                            // From Red TP
+                            "morph, spider, charge, varia",
+                            "morph, anyjump, charge, varia",
+                            "morph, @can/fly, charge, varia",
+                            "morph, flash, charge, varia",
+                            // Visibility
+                            "{morph, spider}",
+                            "{morph, @can/fly}",
+                            "{morph, speed}"
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "cataris",
+                                "x": 1209,
+                                "y": 246
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Major Item",
+                                "item_count": 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Minor Items",
+                "chest_unopened_img": "images/minor_unopened.png",
+                "chest_opened_img": "images/minor_opened.png",
+                "children": [
+                    {
+                        "name": "Missile (First Thermal Backdoor)",
+                        "access_rules": [
+                            // From Artaria Elevator
+                            "charge,cloak,morph",
+                            "charge, [varia], morph",
+                            "{charge,cloak}"
+                            
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "cataris",
+                                "x": 1321,
+                                "y": 819
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Screw Alcove)",
+                        "access_rules": [
+                            // From Artaria Elevator
+                            "charge, cloak, spider, screw",
+                            "charge, cloak, anyjump, screw",
+                            "charge, cloak, @can/fly, screw",
+                            "charge, cloak, speed, screw",
+                            // From Red TP
+                            "morph, flash, varia, screw",
+                            "morph, cross, varia, screw",
+                            "morph, spider, varia, screw",
+                            "morph, speed, varia, screw"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "cataris",
+                                "x": 971,
+                                "y": 752
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Reactor East)",
+                        "access_rules": [
+                            // From Artaria Elevator (cloak)
+                            "charge, cloak, spider, [varia]",
+                            "charge, cloak, speed, [varia]",
+                            "charge, cloak, anyjump, [varia]",
+                            
+                            // From Artaria Elevator (varia)
+                            "charge, [varia], morph, spider",
+                            "charge, [varia], morph, speed",
+                            "charge, [varia], morph, anyjump",
+                            "charge, [varia], morph, bomb",
+                            "charge, [varia], morph, cross",
+                            
+                            // From Red TP
+                            "morph, varia, charge, flash",
+                            "morph, varia, charge, spider",
+                            "morph, varia, charge, anyjump"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "cataris",
+                                "x": 1241,
+                                "y": 624
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Heated Passageway)",
+                        "access_rules": [
+                            // From Artaria Elevator
+                            // requires morph either way
+                            // From Red TP
+                            "morph, flash, varia, charge",
+                            "morph, cross, varia, charge",
+                            "morph, spider, varia, charge",
+                            "morph, speed, varia, charge",
+                            "{charge, cloak, spider, varia}",
+                            "{charge, cloak, speed, varia}",
+                            "{charge, cloak, anyjump, varia}"
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "cataris",
+                                "x": 857,
+                                "y": 596
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (EMMI Blind Spot)",
+                        "access_rules": [
+                            // From Artaria Elevator
+                            "morph, charge, varia, @can/fly",
+                            "morph, charge, varia, speed",
+                            "morph, charge, varia, spider",
+                            "morph, charge, varia, anyjump",
+                            "morph, charge, cloak, @can/fly",
+                            "morph, charge, cloak, speed",
+                            "morph, charge, cloak, spider",
+                            "morph, charge, cloak, anyjump",
+                            // From Red TP
+                            "morph, flash, charge, anyjump",
+                            "morph, flash, charge, grapple",
+                            "morph, flash, charge, spider",
+                            "morph, flash, charge, bomb",
+                            "morph, cross, charge, anyjump",
+                            "morph, cross, charge, grapple",
+                            "morph, cross, charge, spider",
+                            "morph, cross, charge, bomb",
+                            "morph, charge, spider",
+                            // Visibility
+                            "{morph, flash, charge}",
+                            "{morph, charge, spider}",
+                            "{morph, charge, cloak}",
+                            "{morph, charge, varia}"
+                            
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "cataris",
+                                "x": 1124,
+                                "y": 395
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Under Rail Controls)",
+                        "access_rules": [
+                            "charge, [varia]",
+                            "charge, spider, [varia]",
+                            "charge, @can/fly, [varia]",
+                            // Visibility Rules
+                            "{morph, spider, [varia]}",
+                            "{morph, @can/fly, [varia]}",
+                            "{morph, speed, [varia]}"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "cataris",
+                                "x": 1577,
+                                "y": 437
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Above Blue Teleportal)",
+                        "access_rules": [
+                            "morph, varia, @can/fly, anybomb",
+                            "{morph, spider, [varia]}",
+                            "{morph, @can/fly, [varia]}",
+                            "{morph, speed, [varia]}"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "cataris",
+                                "x": 1695,
+                                "y": 320
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Rock Cages)",
+                        "access_rules": [
+                            "varia, morph, anybomb, wide, charge",
+                            "{morph, spider, [varia]}",
+                            "{morph, @can/fly, [varia]}",
+                            "{morph, speed, [varia]}"
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "cataris",
+                                "x": 1387,
+                                "y": 210
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Power Bomb Tank (Spider Platform)",
+                        "access_rules": [
+                            "varia, grapple, morph, anybomb, spider",
+                            "{morph, spider, [varia]}",
+                            "{morph, @can/fly, [varia]}",
+                            "{morph, speed, [varia]}"
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "cataris",
+                                "x": 1513,
+                                "y": 207
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile+ (Red Teleportal)",
+                        "access_rules": [
+                            "morph"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "cataris",
+                                "x": 187,
+                                "y": 500
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Power Bomb Tank (Under Diffusion)",
+                        "access_rules": [
+                            "morph, gravity, grapple, anybomb",
+                            "{morph, varia}"
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "cataris",
+                                "x": 443,
+                                "y": 780
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Z57",
+                        "access_rules": [
+                            "@event/x"
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "cataris",
+                                "x": 1050,
+                                "y": 810
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Kraid",
+                        "access_rules": [
+                            "morph, varia, charge, [spider]"
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "cataris",
+                                "x": 250,
+                                "y": 770
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Kraid Entrance)",
+                        "access_rules": [
+                            "morph, varia, [gravity], anybomb"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "cataris",
+                                "x": 380,
+                                "y": 692
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Purple Teleportal)",
+                        "access_rules": [
+                            "morph, varia, diffusion",
+                            "{varia, grapple, @can/fly}"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "cataris",
+                                "x": 503,
+                                "y": 561
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Energy Part (lava speed puzzle)",
+                        "access_rules": [
+                            "wave, morph, grapple, speed, gravity",
+                            "{charge, wave, morph}"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "cataris",
+                                "x": 809,
+                                "y": 731
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Orange Teleportal Lava Lake)",
+                        "access_rules": [
+                            "speed, [gravity], morph",
+                            "{varia, morph}"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "cataris",
+                                "x": 361,
+                                "y": 446
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Above Orange Teleportal)",
+                        "access_rules": [
+                            "[varia], morph, spider",
+                            "[varia], morph, @can/fly",
+                            "[varia], morph, speed"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "cataris",
+                                "x": 309,
+                                "y": 311
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (EMMI Pit)",
+                        "access_rules": [
+                            "morph, spider",
+                            "morph, @can/fly",
+                            "morph, speed"
+
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "cataris",
+                                "x": 478,
+                                "y": 393
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Power Bomb Tank (Speed Tunnel)",
+                        "access_rules": [
+                            "morph, speed, pb",
+                            "{morph, pb}"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "cataris",
+                                "x": 686,
+                                "y": 436
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Dairon Access)",
+                        "access_rules": [
+                            "@tpc/icfd, speed"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "cataris",
+                                "x": 1063,
+                                "y": 82
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Energy Part (Lava Hallway)",
+                        "access_rules": [
+                            // From Ataria Elevator
+                            "charge, cloak, @can/fly,varia",
+                            "charge, cloak, spider",
+                            "charge, cloak, speed, varia",
+                            // From Red TP
+                            "morph, spider, charge, varia",
+                            "morph, anyjump, charge, varia",
+                            "morph, @can/fly, charge, varia",
+                            "morph, flash, charge, varia",
+                            // Visibility
+                            "{morph, spider}",
+                            "{morph, @can/fly}",
+                            "{morph, speed}"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "cataris",
+                                "x": 1168,
+                                "y": 261
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

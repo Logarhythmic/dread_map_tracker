@@ -1,0 +1,735 @@
+[
+    {
+        "name": "Artaria",
+        "color": "#d4d6d6",
+        "children": [
+            {
+                "name": "Major Items",
+                "chest_unopened_img": "images/major_unopened.png",
+                "chest_opened_img": "images/major_opened.png",
+                "children": [
+                    {
+                        "name": "Charge Beam",
+                        "map_locations": [
+                            {
+                                "map": "artaria",
+                                "x": 858,
+                                "y": 928
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Major Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Corpius",
+                        "access_rules": [
+                            "spider",
+                            "cloak",
+                            "diffusion",
+                            "wave"
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "artaria",
+                                "x": 2102,
+                                "y": 518
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Major Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Varia Suit",
+                        "access_rules": [
+                            "morph"
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "artaria",
+                                "x": 790,
+                                "y": 62
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Major Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Grapple Beam",
+                        "access_rules": [
+                            "speed",
+                            "gravity, morph, wide, @can/fly",
+                            "gravity, morph, wide, anyjump"
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "artaria",
+                                "x": 1628,
+                                "y": 269
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Major Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Screw Attack",
+                        "access_rules": [
+                            "gravity,grapple,morph,anybomb,diffusion",
+                            "gravity,grapple,morph,anybomb,wave"
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "artaria",
+                                "x": 300,
+                                "y": 640
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Major Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "White EMMI",
+                        "access_rules": [
+                            "charge"
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "artaria",
+                                "x": 1638,
+                                "y": 711
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Major Item",
+                                "item_count": 0,
+                                "hosted_item": "white"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Energy Tank (Charge Tutorial)",
+                        "access_rules": [
+                            "charge",
+                            "morph,pb"
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "artaria",
+                                "x": 1594,
+                                "y": 928
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Major Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Energy Tank (Varia Speed Puzzle)",
+                        "access_rules": [
+                            "morph,charge, anybomb,grapple,speed,[flash]",
+                            "{morph, charge, grapple, anybomb}"
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "artaria",
+                                "x": 513,
+                                "y": 90
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Major Item",
+                                "item_count": 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Minor Items",
+                "chest_unopened_img": "images/minor_unopened.png",
+                "chest_opened_img": "images/minor_opened.png",
+                "children": [
+                    {
+                        "name": "Missile (Melee Tutorial)",
+                        "access_rules": [
+                            "morph,bomb",
+                            "morph,@can/fly",
+                            "morph,speed",
+                            // Visibility
+                            "{}"
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "artaria",
+                                "x": 1740,
+                                "y": 660
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Fallen Rocks)",
+                        "map_locations": [
+                            {
+                                "map": "artaria",
+                                "x": 1865,
+                                "y": 603
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Above Elaine)",
+                        "access_rules": [
+                            "morph, anybomb, @can/fly",
+                            "morph, anybomb, flash",
+                            "morph, anybomb, anyjump",
+                            "morph, anybomb, speed",
+                            "morph, {power}"
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "artaria",
+                                "x": 1967,
+                                "y": 584
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Cloak Door)",
+                        "map_locations": [
+                            {
+                                "map": "artaria",
+                                "x": 1919,
+                                "y": 418
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile+ (Varia)",
+                        "access_rules": [
+                            "morph,varia, [gravity]"
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "artaria",
+                                "x": 898,
+                                "y": 161
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Varia Super Missile Door)",
+                        "access_rules": [
+                            "morph,super,charge",
+                            "morph,super,@can/pb",
+                            "{charge,morph}"
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "artaria",
+                                "x": 723,
+                                "y": 319
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Waterass)",
+                        "map_locations": [
+                            {
+                                "map": "artaria",
+                                "x": 579,
+                                "y": 529
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Below Red Teleportal)",
+                        "access_rules": [
+                            "morph",
+                            "{}"
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "artaria",
+                                "x": 780,
+                                "y": 494
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile+ (Speedway)",
+                        "access_rules": [
+                            "speed,[gravity]",
+                            "speed,morph,pb"
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "artaria",
+                                "x": 796,
+                                "y": 821
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Energy Part (Speedway)",
+                        "access_rules":[
+                            "[gravity]",
+                            "speed,morph,pb"
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "artaria",
+                                "x": 651,
+                                "y": 830
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (From Speedway)",
+                        "access_rules": [
+                            "gravity,speed,morph,anybomb",
+                            "morph,pb"
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "artaria",
+                                "x": 936,
+                                "y": 902
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Under Geothermal Bridge)",
+                        "access_rules": [
+                            "charge,gravity",
+                            "charge,varia,spider",
+                            "charge,varia,grapple",
+                            "charge,varia,space",
+                            "cloak,gravity",
+                            "cloak,varia,spider",
+                            "cloak,varia,grapple",
+                            "cloak,varia,space",
+                            "{charge}"
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "artaria",
+                                "x": 2128,
+                                "y": 388
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Heated Elevator Access)",
+                        "access_rules": [
+                            "charge,varia,anyjump",
+                            "charge,varia,flash",
+                            "charge,varia,speed",
+                            "charge,varia,morph,bomb",
+                            "charge,varia,morph,cross",
+                            "{charge}"
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "artaria",
+                                "x": 2490,
+                                "y": 348
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Thermal Transfer)",
+                        "access_rules": [
+                            "charge"
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "artaria",
+                                "x": 2089,
+                                "y": 450
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Jaffe Room)",
+                        "access_rules": [
+                            "charge",
+                            "@can/fly,morph,cloak"
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "artaria",
+                                "x": 1860,
+                                "y": 384
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Morph Cutoff)",
+                        "access_rules": [
+                            "morph",
+                            "{}"
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "artaria",
+                                "x": 1648,
+                                "y": 354
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (EMMI Zone Intro)",
+                        "access_rules": [
+                            "@can/fly",
+                            "spider",
+                            "anyjump",
+                            "grapple",
+                            "speed",
+                            "{}"
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "artaria",
+                                "x": 1536,
+                                "y": 533
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Near Grapple Tower)",
+                        "access_rules": [
+                            "speed",
+                            "gravity, morph, wide, @can/fly",
+                            "gravity, morph, wide, anyjump"
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "artaria",
+                                "x": 1304,
+                                "y": 366
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Grapple Trap)",
+                        "access_rules": [
+                            "{charge}",
+                            "charge, grapple"
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "artaria",
+                                "x": 1294,
+                                "y": 604
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Silo Ball Spark)",
+                        "access_rules": [
+                            "speed,morph"
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "artaria",
+                                "x": 983,
+                                "y": 456
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Power Bomb Tank (Silo)",
+                        "access_rules": [
+                            "morph,speed",
+                            "morph,@can/fly",
+                            "morph,spider,anyjump",
+                            "morph,grapple",
+                            "morph,anyjump,flash",
+                            "{}"
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "artaria",
+                                "x": 1087,
+                                "y": 435
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Screw Attack Waterway)",
+                        "access_rules": [
+                            "gravity,grapple,morph,anybomb,diffusion",
+                            "gravity,grapple,morph,anybomb,wave"
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "artaria",
+                                "x": 280,
+                                "y": 713
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Above Screw Attack)",
+                        "access_rules": [
+                            "gravity,grapple,morph,anybomb,diffusion",
+                            "gravity,grapple,morph,anybomb,wave"
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "artaria",
+                                "x": 296,
+                                "y": 597
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Twin Pools)",
+                        "access_rules": [
+                            "@can/fly",
+                            "spider",
+                            "grapple",
+                            "speed",
+                            "anyjump",
+                            "{}"
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "artaria",
+                                "x": 1010,
+                                "y": 813
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Burenia Elevator)",
+                        "access_rules": [
+                            "gravity,grapple,morph,anybomb,diffusion,screw",
+                            "gravity,grapple,morph,anybomb,wave,screw"
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "artaria",
+                                "x": 20,
+                                "y": 597
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Artaria Cold Room)",
+                        "access_rules": [
+                            "[gravity]"
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "artaria",
+                                "x": 430,
+                                "y": 660
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Top of Waterfall)",
+                        "access_rules": [
+                            "morph",
+                            "{}"
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "artaria",
+                                "x": 540,
+                                "y": 455
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

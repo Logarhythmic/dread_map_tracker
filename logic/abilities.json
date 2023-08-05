@@ -1,0 +1,550 @@
+[
+    { // Ability Checks
+        "name": "can",
+        "sections": [
+            // Bomb abilities
+            { // Lay a bomb
+                "name": "bomb",
+                "access_rules": [
+                    "morph,regbomb"
+                ],
+                "item_count": 1
+            },
+            { // Lay a Power Bomb
+                "name": "pb",
+                "access_rules": [
+                    "morph,pb"
+                ],
+                "item_count": 1
+            },
+            { // Lay any bomb
+                "name": "anybomb",
+                "access_rules": [
+                    "morph,anybomb"
+                ],
+                "item_count": 1
+            },
+
+            //Vertical traversal
+            { // Infinite Height
+                "name": "fly",
+                "access_rules": [
+                    "@can/bomb",
+                    "space"
+                ],
+                "item_count": 1
+            },
+            { // Infinite Height plus Speed Booster
+                "name": "fly or spark",
+                "access_rules": [
+                    "@can/fly",
+                    "speed"
+                ],
+                "item_count": 1
+            },
+            { // Single Wall Jump (Includes flight)
+                "name": "climb",
+                "access_rules": [
+                    "@can/fly",
+                    "morph",
+                    "flash"
+                ],
+                "item_count": 1
+            },
+            { // Short vertical distance (Includes above)
+                "name": "reach",
+                "access_rules": [
+                    "@can/climb",
+                    "spin"
+                ],
+                "item_count": 1
+            },
+            { // Short vertical distance without wall (i.e. Fly or Spin Boost)
+                "name": "reach_nowall",
+                "access_rules": [
+                    "@can/fly",
+                    "spin"
+                ],
+                "item_count": 1
+            },
+
+            //Magnet usage
+            { // Spider Magnet or Grapple Beam
+                "name": "usemagnets",
+                "access_rules": [
+                    "spider",
+                    "grapple"
+                ],
+                "item_count": 1
+            },
+            { // Climb a magnet wall (Magnet usage or SWJ)
+                "name": "magclimb",
+                "access_rules": [
+                    "@can/climb",
+                    "@can/usemagnets"
+                ],
+                "item_count": 1
+            },
+
+            //Doors and blobs
+            { // Break Super Missile Covers
+                "name": "open_greendoors",
+                "access_rules": [
+                    "anymissile"
+                ],
+                "item_count": 1
+            },
+            { // Open Charge Doors
+                "name": "open_chargedoors",
+                "access_rules": [
+                    "anycharge",
+                    "@can/pb"
+                ],
+                "item_count": 1
+            },
+            { // Open Wide Beam Doors
+                "name": "open_widedoors",
+                "access_rules": [
+                    "anybeam"
+                ],
+                "item_count": 1
+            },
+            { // Push Wide Blocks
+                "name": "open_wideblocks",
+                "access_rules": [
+                    "anycharge,anybeam"
+                ],
+                "item_count": 1
+            },
+            { // Open Plasma Doors
+                "name": "open_plasmadoors",
+                "access_rules": [
+                    "plasma",
+                    "wave"
+                ],
+                "item_count": 1
+            },
+            { // Open Wave Doors
+                "name": "open_wavedoors",
+                "access_rules": [
+                    "wave"
+                ],
+                "item_count": 1
+            },
+            { // Break Diffusion Blobs
+                "name": "open_diffblobs",
+                "access_rules": [
+                    "diffusion",
+                    "wave",
+                    "@can/pb"
+                ],
+                "item_count": 1
+            },
+            { // Break Enky
+                "name": "open_enky",
+                "access_rules": [
+                    "ice",
+                    "@can/pb"
+                ],
+                "item_count": 1
+            },
+
+            //Speed Shenanigans
+            { // Short Boost
+                "name": "shortboost",
+                "access_rules": [
+                    "speed,flash"
+                ],
+                "item_count": 1
+            },
+            { // Aim Down Clip
+                "name": "adc",
+                "access_rules": [
+                    "speed,flash,grapple,slide"
+                ],
+                "item_count": 1
+            },
+            { // Ballspark
+                "name": "ballspark",
+                "access_rules": [
+                    "speed,morph"
+                ],
+                "item_count": 1
+            },
+
+            //Water abilities
+            { // Water Bomb Jump
+                "name": "wbj",
+                "access_rules": [
+                    "@can/bomb"
+                ],
+                "item_count": 1
+            },
+            { //Water Space Jump
+                "name": "wsj",
+                "access_rules": [
+                    "space"
+                ],
+                "item_count": 1
+            }
+        ]
+    },
+    { // World Events
+        "name": "event",
+        "sections": [
+            //World events
+            { // Quiet Robe Sequence
+                "name": "qr",
+                "access_rules": [
+                    "qr"
+                ],
+                "item_count": 1
+            },
+            { // Release the X
+                "name": "x",
+                "access_rules": [
+                    "x"
+                ],
+                "item_count": 1
+            }
+        ]
+    },
+    
+    { // Cataris Access
+        "name": "tpc",
+        "sections": [
+            { // In Cataris From Artaria
+                "name": "icfa",
+                "access_rules": [
+                    "morph, varia, charge",
+                    "charge, cloak, spider",
+                    "charge, cloak, anyjump",
+                    "charge, cloak, speed",
+                    "charge, cloak, flash"
+                ],
+                "item_count": 1
+            },
+            { // In Cataris From Red TP
+                "name": "icfrtp",
+                "access_rules": [
+                    "morph"
+                ],
+                "item_count": 1
+            },
+            { // In Cataris From Dairon
+                "name": "icfd",
+                "access_rules": [
+                    "speed, wide, charge, varia, [grapple]"
+                ],
+                "item_count": 1
+            }
+            ]
+    },
+    { // Dairon Access
+        "name": "tpd",
+        "sections": [
+            { // In Dairon from Cataris
+                "name": "idfc",
+                "access_rules": [
+                    "@tpc/icfa",
+                    "@tpc/icfa, anyjump, charge, cloak, [varia]",
+                    "@tpc/icfa, charge, varia, anyjump"
+                ],
+                 "item_count": 1
+            },
+            { // In Dairon from Artaria
+                "name": "idfa",
+                "access_rules": [
+                    "speed, [varia], grapple, morph, bomb",
+                    "speed, [varia], grapple, morph, cross"
+                ],
+                "item_count": 1
+            },
+            { // In Dairon from Purple TP
+                "name": "idfptp",
+                "access_rules": [
+                    "@tpc/icfrtp, [varia], diffusion",
+                    "@tpc/icfrtp, [varia], wave",
+                    "@tpc/incfa, spider, grapple, [varia], diffusion",
+                    "@tpc/incfa, spider, grapple, [varia], wave",
+                    "@tpc/incfa, @can/fly, grapple, [varia], diffusion",
+                    "@tpc/incfa, @can/fly, grapple, [varia], wave",
+                    "@tpc/incfa, anyjump, grapple, [varia], diffusion",
+                    "@tpc/incfa, anyjump, grapple, [varia], wave"
+                ],
+                "item_count": 1
+            },
+            { // In Dairon from Yellow TP
+                "name": "idfytp",
+                "access_rules": [
+                    "wave"
+                ],
+                "item_count": 1
+            },
+            { // In Dairon from bottom Burenia
+                "name": "idfbb",
+                "access_rules": [
+                    "@tpb/ibfd, morph, cross, charge, [diffuison]",
+                    "@tpb/ibfd, morph, speed, charge, [diffusion]",
+                    "@tpb/ibfd, morph, [speed], flash, charge, [diffusion]",
+                    "@tpb/ibfd, morph, flash, charge, [diffusion]",
+                    "@tpb/ibfd, morph, cross, wave",
+                    "@tpb/ibfd, morph, speed, wave",
+                    "@tpb/ibfd, morph, [speed], flash, wave",
+                    "@tpb/ibfd, morph, flash, wave"
+                ],
+                "item_count": 1
+            }
+            ]
+    },
+              // Need to Add Logic for In Dairon from Burenia and Ghav
+              // Need to Add Logic for In Burenia from Ghav
+    { // Burenia Access
+        "name": "tpb",
+        "sections": [
+            { // In Burenia from Dairon Top
+                "name": "ibfd",
+                "access_rules": [
+                    "@tp/in_d, speed, morph, bomb",
+                    "@tp/in_d, speed, morph, cross",
+                    "@tp/in_d, varia, wide, charge, morph, bomb"
+                ],
+                "item_count": 1
+            },
+            { // In Burenia from Cyan TP
+                "name": "ibfctp",
+                "access_rules": [
+                    "@tp/in_f, morph, pb"
+    
+                ],
+                "item_count": 1
+            },
+            { // In Burenia from Green TP
+                "name": "ibfgtp",
+                "access_rules": [
+                    "@tp/in_g",
+                    "@tpg/igfotp, morph, pb, speed",
+                    "@tpg/igfotp, morph, ice, speed",
+                    "@tpg/igfotp, morph, pb, space",
+                    "@tpg/igfotp, morph, ice, space",
+                    "@tpg/igfotp, morph, pb, gravity",
+                    "@tpg/igfotp, morph, ice, gravity"
+                
+                ],
+                "item_count": 1
+            },
+            { // In Burenia from Ghavoran
+                "name": "ibfg",
+                "access_rules": [
+                    "@tp/in_g, wave",
+                    "@tp/in_g, diffusion"
+                ],
+                "item_count": 1
+            },
+            { // In Burenia from Artaria
+                "name": "ibfa",
+                "access_rules": [
+                    "[gravity], grapple, screw"
+                ],
+                "item_count": 1
+            },
+            { // In Burenia from Gravity Suit Room
+                "name": "ibfgsr",
+                "access_rules": [
+                   "@tpb/ibfa, @can/fly, @can_pb, morph, speed, diffusion, grapple",
+                    "@tpb/ibfa, speed, ice, morph, diffusion, grapple",
+                    "@tpb/ibfgtp, @can/pb, speed, diffusion, grapple",
+                    "@tpb/ibfgtp, morph, ice, anybomb, speed, diffusion, grapple",
+                    "@tpb/ibfa, @can/fly, @can_pb, morph, speed, wave, grapple",
+                    "@tpb/ibfa, speed, ice, morph, wave, grapple",
+                    "@tpb/ibfgtp, @can/pb, speed, wave, grapple",
+                    "@tpb/ibfgtp, morph, ice, anybomb, speed, wave, grapple",
+                    "@tpb/ibfa, @can/fly, @can_pb, morph, speed, cloak",
+                    "@tpb/ibfa, speed, ice, morph, cloak",
+                    "@tpb/ibfgtp, @can/pb, speed, cloak",
+                   "@tpb/ibfgtp, morph, ice, anybomb, speed, cloak"
+    
+                
+                ],
+                "item_count": 1
+            }
+            
+            ]
+    },
+    { // Ghavoran Access
+      // Need to add Into Ghavoran From Ferenia/Hanubia
+        "name": "tpg",
+        "sections": [
+            { // In Ghavoran From Burenia
+                "name": "igfb",
+                "access_rules": [
+                    "@tpb/ibfd, grapple, spider, qr",
+                    "@tpb/ibfd, grapple, flash, qr",
+                    "@tpb/ibfd, grapple, space, qr",
+                    "@tpb/ibfd, grapple, gravity, anyjump, qr",
+                    "@tpb/ibfd, grapple, [wave], qr"
+                ],
+                "item_count": 1
+            },
+            { // In Ghavoran From Dairon
+                "name": "igfd",
+                "access_rules": [
+                    "@tp/in_d, speed, [gravity]"
+                ],
+                "item_count": 1
+            },
+            { // In Ghavoran From Green TP
+                "name": "igfgtp",
+                "access_rules": [
+                    "@tpb/ibfa, @can/fly",
+                    "@tpb/ibfa, speed",
+                    "@tpb/ibfd, morph, spider, wave",
+                    "@tpb/ibfd, morph, anyjump, wave",
+                    "@tpb/ibfd, morph, gravity, wave",
+                    "@tpb/ibfd, morph, grapple, wave"
+                ],
+                "item_count": 1
+            },
+            { // In Ghavoran From Orange TP
+                "name": "igfotp",
+                "access_rules": [
+                    "@tpc/icfrtp, grapple, charge, [varia]",
+                    "@tpc/icfrtp, anyjump, charge, [varia]",
+                    "@tpc/icfrtp, @can/fly, charge, [varia]",
+                    "@tpc/icfrtp, speed, charge, [varia]",
+                    "@tpc/icfrtp, grapple, pb, [charge, varia]",
+                    "@tpc/icfrtp, anyjump, pb, [charge, varia]",
+                    "@tpc/icfrtp, @can/fly, pb, [charge, varia]",
+                    "@tpc/icfrtp, speed, pb, [charge, varia]"
+                ],
+                "item_count": 1
+            }
+        ]
+    },
+    { // Ferenia Access
+      // Need to add access from Hanubia
+        "name": "tpf",
+        "sections": [
+            { // In Ferenia from Dairon Left
+                "name": "iffdl",
+                "access_rules": [
+                    "@tp/in_d, speed, wave, charge"
+                ],
+                "item_count": 1
+            },
+            { // In Ferenia from Dairon Right
+                "name": "iffdr",
+                "access_rules": [
+                    "@tp/in_d, speed, grapple"
+                ],
+                "item_count": 1
+            },
+            { // In Ferenia from Cyan TP
+                "name": "iffctp",
+                "access_rules": [
+                    "@tpb/ibfd, diffusion, storm, morph, anybomb",
+                    "@tpb/ibfd, wave, storm, morph, anybomb"
+                ],
+                "item_count": 1
+            },
+            { // In Ferenia from Ghavoran
+                "name": "iffg",
+                "access_rules": [
+                    "@tp/in_g, ice, grapple",
+                    "@tp/in_g, pb, grapple"
+                ],
+                "item_count": 1
+            }
+        ]
+    },
+    { // Hanubia Access
+        "name": "tph",
+        "sections": [
+            { // In Hanubia from Ferenia
+                "name": "ihff",
+                "access_rules": [
+                    "@tp/in_f, screw, gravity, [diffuison]"
+                ],
+                "item_count": 1
+            },
+            { // In Hanubia from Ghavoran
+                "name": "ihfg",
+                "access_rules": [
+                    "@tp/in_g, screw, grapple, x, [cross]",
+                    "@tpg/igfotp, charge, pb, speed, x, [cross]"
+                ],
+                "item_count": 1
+            }
+        ]
+    },
+    { // Big zone access
+        "name": "tp",
+        "sections": [
+            { // In Dairon main area
+                "name": "in_d",
+                "access_rules": [
+                    "@tpd/idfc",
+                    "@tpd/idfytp",
+                    "@tpd/idfptp",
+                    "@tpd/idfa, grapple, morph, bomb",
+                    "@tpd/idfa, grapple, morph, cross"
+                ],
+                "item_count": 1
+            },
+            { // In Cataris
+                "name": "in_c",
+                "access_rules": [
+                   "@tpc/icfd",
+                   "@tpc/icfa",
+                   "@tpc/icfrtp"
+                ],
+                "item_count": 1
+            },
+            { // In Ghavoran's central tower
+                "name": "in_g",
+                "access_rules": [
+                   "@tpg/igfb, plasma",
+                   "@tpg/igfb, plasma, pb",
+                   "@tpg/igfb, plasma, ice",
+                   "@tpg/igfotp, charge, morph, anybomb, ice, anyjump,plasma",
+                   "@tpg/igfotp, charge, morph, anybomb, pb, anyjump, plasma",
+                   "@tpg/igfotp, charge, morph, bomb, ice, [anyjump], plasma",
+                   "@tpg/igfotp, charge, morph, bomb, pb, [anyjump], plasma"
+                ],
+                "item_count": 1
+            },
+            { // In Elun
+                "name": "in_e",
+                "access_rules": [
+                   "@tpg/igfb, plasma, pb, super, spider, grapple",
+                   "@tpg/igfb, plasma, ice, super, spider, grapple",
+                   "@tpg/igfotp, charge, morph, anybomb, ice, anyjump,plasma, super, spider, grapple",
+                   "@tpg/igfotp, charge, morph, anybomb, pb, anyjump, plasma, super, spider, grapple",
+                   "@tpg/igfotp, charge, morph, bomb, ice, [anyjump], plasma, super, spider, grapple",
+                   "@tpg/igfotp, charge, morph, bomb, pb, [anyjump], plasma, super, spider, grapple",
+                   "@tpg/igfb, grapple, morph, bomb, spider, super, speed"
+                ],
+                "item_count": 1
+            },
+            { // In Ferenia Bots room
+                "name": "in_f",
+                "access_rules": [
+                   "@tpf/iffdr, wave, morph",
+                   "@tpf/iffdr, plasma, screw, [gravity]",
+                   "@tpf/iffdl, plasma, screw, [gravity]",
+                   "@tpf/iffctp, pb",
+                   "@tpf/iffg, morph"
+                ],
+                "item_count": 1
+            },
+            { // In Hanubia Nav Station
+                "name": "in_h",
+                "access_rules": [
+                   "@tph/ihfg",
+                   "@tph/ihff, screw, anybomb, morph"
+                ],
+                "item_count": 1
+            }
+        ]
+    }
+    ]

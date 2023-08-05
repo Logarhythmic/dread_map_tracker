@@ -1,0 +1,260 @@
+[
+    {
+        "name": "Charge Beam",
+        "type": "progressive",
+        "stages": [
+            {
+                "img": "images/item_chargebeam.png",
+                "codes": "anycharge,charge"
+            },
+            {
+                "img": "images/item_diffusionbeam.png",
+                "codes": "anycharge,diffusion"
+            }
+        ]
+    },
+    {
+        "name": "Beam",
+        "type": "progressive",
+        "stages": [
+            {
+                "img": "images/item_widebeam.png",
+                "codes": "anybeam,wide"
+            },
+            {
+                "img": "images/item_plasmabeam.png",
+                "codes": "anybeam,wide,plasma"
+            },
+            {
+                "img": "images/item_wavebeam.png",
+                "codes": "anybeam,wide,plasma,wave"
+            }
+        ]
+    },
+    {
+        "name": "Morph Bombs",
+        "type": "progressive",
+        "stages": [
+            {
+                "img": "images/item_bomb.png",
+                "codes": "anybomb,bomb"
+            },
+            {
+                "img": "images/item_crossbomb.png",
+                "codes": "anybomb,bomb,cross"
+            }
+        ]
+    },
+    {
+        "name": "Missile",
+        "type": "progressive",
+        "stages": [
+            {
+                "img": "images/item_supermissile.png",
+                "codes": "anymissile,super"
+            },
+            {
+                "img": "images/item_icemissile.png",
+                "codes": "anymissile,ice"
+            }
+        ]
+    },
+    {
+        "name": "Storm Missile",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/item_stormmissile.png",
+        "codes": "storm"
+    },
+    {
+        "name": "Suit",
+        "type": "progressive",
+        "stages": [
+            {
+                "img": "images/item_variasuit.png",
+                "codes": "anysuit,varia"
+            },
+            {
+                "img": "images/item_gravitysuit.png",
+                "codes": "anysuit,gravity"
+            }
+        ]
+    },
+    {
+        "name": "Spin Jump",
+        "type": "progressive",
+        "stages": [
+            {
+                "img": "images/item_spinboost.png",
+                "codes": "anyjump,spin"
+            },
+            {
+                "img": "images/item_spacejump.png",
+                "codes": "anyjump,space"
+            }
+        ]
+    },
+    {
+        "name": "Morph Ball",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/item_morphball.png",
+        "codes": "morph"
+    },
+    {
+        "name": "Morph Bomb",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/item_bomb.png",
+        "codes": "anybomb,regbomb,bomb"
+    },
+    {
+        "name": "Cross Bomb",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/item_crossbomb.png",
+        "codes": "anybomb,regbomb,cross"
+    },
+    {
+        "name": "Power Bomb",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/item_powerbomb.png",
+        "codes": "anybomb,pb"
+    },
+    {
+        "name": "Slide",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/item_slide.png",
+        "codes": "slide",
+        "initial_active_state": "true"
+    },
+    {
+        "name": "Spider Magnet",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/item_spidermagnet.png",
+        "codes": "spider"
+    },
+    {
+        "name": "Speed Booster",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/item_speedbooster.png",
+        "codes": "speed"
+    },
+    {
+        "name": "Grapple Beam",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/item_grapplebeam.png",
+        "codes": "grapple"
+    },
+    {
+        "name": "Screw Attack",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/item_screwattack.png",
+        "codes": "screw"
+    },
+    {
+        "name": "Phantom Cloak",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/item_phantomcloak.png",
+        "codes": "cloak"
+    },
+    {
+        "name": "Flash Shift",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/item_flashshift.png",
+        "codes": "flash"
+    },
+    {
+        "name": "Pulse Radar",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/item_pulseradar.png",
+        "codes": "radar",
+        "initial_active_state": "true"
+    },
+    {
+        "name": "Energy Tank",
+        "type": "consumable",
+        "img": "images/item_etank.png",
+        "max_quantity": 8,
+        "codes": "etank,alltanks"
+    },
+    {
+        "name": "Energy Part",
+        "type": "consumable",
+        "img": "images/item_epart.png",
+        "max_quantity": 16,
+        "codes": "epart,alltanks"
+    },
+    {
+        "name": "White Emmi",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/boss_white.png",
+        "codes": "emmi,white"
+    },
+    {
+        "name": "Green Emmi",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/boss_green.png",
+        "codes": "emmi,green"
+    },
+    {
+        "name": "Yellow Emmi",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/boss_yellow.png",
+        "codes": "emmi,yellow"
+    },
+    {
+        "name": "Blue Emmi",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/boss_blue.png",
+        "codes": "emmi,blue"
+    },
+    {
+        "name": "Purple Emmi",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/boss_purple.png",
+        "codes": "emmi,purple"
+    },
+    {
+        "name": "Red Emmi",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/boss_red.png",
+        "codes": "emmi,red"
+    },
+    {
+        "name": "Quiet Robe",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/event_qr.png",
+        "codes": "event,qr"
+    },
+    {
+        "name": "X Released",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/event_x.png",
+        "codes": "event,x"
+    },
+    {
+        "name": "Go",
+        "type": "toggle",
+        "loop": "true",
+        "img": "images/apuevil.png",
+        "codes": "go"
+    }
+]

@@ -1,0 +1,520 @@
+[
+    {
+        "name": "Dairon",
+        "color": "#ddcd1a",
+        "children": [
+            {
+                "name": "Major Items",
+                "chest_unopened_img": "images/major_unopened.png",
+                "chest_opened_img": "images/major_opened.png",
+                "children": [
+                    {
+                        "name": "Wide Beam",
+                        "access_rules": [
+                            "@tp/in_c"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "dairon",
+                                "x": 1421,
+                                "y": 284
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Major Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Bombs",
+                        "access_rules": [
+                            "@tp/in_d, speed",
+                            "@tp/in_d, wide, [varia], charge"
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "dairon",
+                                "x": 977,
+                                "y": 107
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Major Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Yellow EMMI",
+                        "access_rules": [
+                            "yellow, speed, morph",
+                            "@tp/in_d, speed, morph, bomb",
+                            "@tp/in_d, speed, morph, cross",
+                            "@tpd/idfbb, charge"
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "dairon",
+                                "x": 659,
+                                "y": 643
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Major Item",
+                                "item_count": 0,
+                                "hosted_item": "yellow"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Energy Tank (Speed Shaft)",
+                        "access_rules": [
+                            "@tp/in_d, speed"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "dairon",
+                                "x": 1001,
+                                "y": 319
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Major Item",
+                                "item_count": 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Minor Items",
+                "chest_unopened_img": "images/minor_unopened.png",
+                "chest_opened_img": "images/minor_opened.png",
+                "children": [
+                    {
+                        "name": "Missile (Yellow Teleportal)",
+                        "access_rules": [
+                            "wave",
+                            "@tpd/idfc, speed",
+                            "{@tpd/idfc}"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "dairon",
+                                "x": 1972,
+                                "y": 74
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Top of Dairon Hub)",
+                        "access_rules": [
+                            "@tpd/idfc, @can/fly",
+                            "@tpd/idfc, anyjump, speed",
+                            "@tpd/idfc,anyjump, flash", 
+                            "@tpd/idfc, morph, bomb", 
+                            "@tpd/idfc, grapple", 
+                            "{@tpd/idfc, anyjump}",
+                            "{@tpd/idfc, charge, wide}",
+                            "{@tpd/idfc, speed}" 
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "dairon",
+                                "x": 1690,
+                                "y": 230
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Energy Part (Heat Hub)",
+                        "access_rules": [
+                            "@tp/in_d, varia, morph, wide",
+                            "{@tp/in_d, morph, wide}"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "dairon",
+                                "x": 1410,
+                                "y": 453
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Grapple Tunnel)",
+                        "access_rules": [
+                            "@tp/in_d, [varia], grapple",
+                            "{@tp/in_d}"
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "dairon",
+                                "x": 1578,
+                                "y": 443
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Early Grapple Spark)",
+                        "access_rules": [
+                            "@tp/in_d, [gravity], speed, varia, morph"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "dairon",
+                                "x": 1717,
+                                "y": 515
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Power Bomb Tank (Artaria Transport)",
+                        "access_rules": [
+                            "@tpd/idfa, grapple",
+                            "@tpd/idfa, speed",
+                            "@tpd/idfa, @can/fly",
+                            "@tp/in_d, [varia], wide, charge"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "dairon",
+                                "x": 1762,
+                                "y": 453
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Power Bomb Tank (EMMI Tunnel)",
+                        "access_rules": [
+                            "@tp/in_d, speed, @can/pb",
+                            "{@tp/in_d, speed}",
+                            "@tp/in_d, wide, varia, charge, @can/pb",
+                            "{@tp/in_d, wide, varia, charge}"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "dairon",
+                                "x": 1148,
+                                "y": 181
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Cold Room Shaft)",
+                        "access_rules": [
+                            "@tp/in_d, speed, [gravity], screw"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "dairon",
+                                "x": 611,
+                                "y": 310
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Cold Room Tunnel)",
+                        "access_rules": [
+                            "@tp/in_d, speed, [gravity]"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "dairon",
+                                "x": 595,
+                                "y": 183
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Energy Part (Ghavoran Transport Access)",
+                        "access_rules": [
+                            "@tp/in_d, speed, [gravity]"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "dairon",
+                                "x": 545,
+                                "y": 102
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Morph Launcher Detour)",
+                        "access_rules": [
+                            "@tp/in_d, wide, charge, varia, morph, bomb",
+                            "@tp/in_d, wide, charge, varia, morph, cross"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "dairon",
+                                "x": 494,
+                                "y": 441
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Grapple Shortcut)",
+                        "access_rules": [
+                            "@tp/in_d, wide, charge, varia, morph, bomb",
+                            "@tp/in_d, wide, charge, varia, morph, cross",
+                            "@tp/in_d, speed, grapple",
+                            "@tpd/idfbt",
+                            "@tpd/idfbb, yellow"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "dairon",
+                                "x": 570,
+                                "y": 448
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (EMMI Speedzone)",
+                        "access_rules": [
+                            "@tp/in_d, speed",
+                            "{@tp/in_d, wide, charge, varia, morph, bomb}",
+                            "{@tp/in_d, wide, charge, varia, morph, cross}"
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "dairon",
+                                "x": 761,
+                                "y": 407
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Energy Part (Central Unit Access)",
+                        "access_rules": [
+                            "yellow, speed, morph",
+                            "@tp/in_d, speed, morph, bomb",
+                            "@tp/in_d, speed, morph, cross",
+                            "@tpd/idfbb, speed, charge",
+                            "{@tpd/idfbb}"
+                            
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "dairon",
+                                "x": 579,
+                                "y": 675
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile+ (Lower EMMI Zone Access)",
+                        "access_rules": [
+                            "@tp/in_d, speed, morph, bomb",
+                            "@tp/in_d, speed, morph, cross",
+                            "speed, yellow",
+                            "{@tp/in_d, speed}"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "dairon",
+                                "x": 784,
+                                "y": 551
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Power Bomb Tank (Storm Corner)",
+                        "access_rules": [
+                            "@tp/in_d, speed, morph, [cross], storm, grapple",
+                            "yellow, speed, storm, grapple, [cross]"
+
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "dairon",
+                                "x": 995,
+                                "y": 561
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Cross Bomb Puzzle)",
+                        "access_rules": [
+                            "{@tp/in_d, speed}",
+                            "@tp/in_d, speed, morph, [cross]",
+
+                            "{@tp/in_d, charge, varia, wide}",
+                            "@tp/in_d, charge, varia, wide, morph, cross"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "dairon",
+                                "x": 1035,
+                                "y": 223
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Energy Part (Yellow EMMI Intro)",
+                        "access_rules": [
+                            "@tp/in_d, speed, morph, anybomb"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "dairon",
+                                "x": 1284,
+                                "y": 180
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Below Bombs)",
+                        "access_rules": [
+                            "@tp/in_d, speed",
+                            "@tp/in_d, wide, [varia], charge"
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "dairon",
+                                "x": 1000,
+                                "y": 130
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

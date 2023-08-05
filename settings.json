@@ -1,0 +1,30 @@
+{
+    "auto_pin_capturing_locations": false,
+    "auto_unpin_on_clear": true,
+    "layout_swap_left_right": false,
+    "disabled_image_filter": "grayscale, brightness|0.5",
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "*/items/*.json",
+                "*/*.items.json"
+        ],
+            "url": "https://emotracker.net/developers/schemas/items.json"
+        },
+        {
+            "fileMatch": [
+                "*/layouts/*.json",
+                "*/*.layouts.json"
+            ],
+            "url": "https://emotracker.net/developers/schemas/layouts.json"
+        },
+        {
+            "fileMatch": [
+                "*/locations/*.json",
+                "*/*.locations.json",
+                "*/logic/*.json"
+            ],
+            "url": "https://emotracker.net/developers/schemas/locations.json"
+        }                                   
+    ]
+}

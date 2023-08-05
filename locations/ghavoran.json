@@ -1,0 +1,469 @@
+[
+    {
+        "name": "Ghavoran",
+        "color": "#2bbc35",
+        "children": [
+            {
+                "name": "Major Items",
+                "chest_unopened_img": "images/major_unopened.png",
+                "chest_opened_img": "images/major_opened.png",
+                "children": [
+                    {
+                        "name": "Super Missiles",
+                        "access_rules": [
+                            "@tpg/igfd, morph, bomb",
+                            "@tpg/igfb, grapple, morph, bomb, spider"
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ghavoran",
+                                "x": 519,
+                                "y": 643
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Major Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Pulse Radar",
+                        "access_rules": [
+                            "@tpg/igfotp, charge"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ghavoran",
+                                "x": 830,
+                                "y": 146
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Major Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Spin Boost",
+                        "access_rules": [
+                            "@tpg/igfotp, morph, bomb, ice",
+                            "@tpg/igfotp, morph, bomb, pb",
+                            "@tpg/igfgtp, morph, bomb, screw",
+                            "@tpg/igfgtp, morph, bomb, pb",
+                            "@tp/in_g, bomb"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ghavoran",
+                                "x": 832,
+                                "y": 349
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Major Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Blue EMMI",
+                        "access_rules": [
+                            "@tp/in_g, anyjump, pb",
+                            "@tp/in_g, anyjump, ice",
+                            "@tp/in_g, speed, pb",
+                            "@tp/in_g, speed, ice",
+                            "@tp/in_g, bomb, [anyjump]"
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ghavoran",
+                                "x": 340,
+                                "y": 197
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Major Item",
+                                "item_count": 0,
+                                "hosted_item": "blue"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Golzuna",
+                        "access_rules": [
+                            "@tp/in_g, screw, grapple, x",
+                            "@tpg/igfotp, charge, pb, speed, x"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ghavoran",
+                                "x": 1080,
+                                "y": 156
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Major Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Energy Tank (Spin Boost Tower)",
+                        "access_rules": [
+                            "@tp/in_g, anyjump, [ice]",
+                            "@tp/in_g, speed, [ice]",
+                            "@tp/in_g, anyjump, [pb]",
+                            "@tp/in_g, speed, [pb]"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ghavoran",
+                                "x": 773,
+                                "y": 174
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Major Item",
+                                "item_count": 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Minor Items",
+                "chest_unopened_img": "images/minor_unopened.png",
+                "chest_opened_img": "images/minor_opened.png",
+                "children": [
+                    {
+                        "name": "Missile (Lower Left Entrance)",
+                        "access_rules": [
+                            "@tpg/igfb, grapple, morph, anyjump",
+                            "@tpg/igfb, grapple, morph, bomb, [anyjump]",
+                            "@tpg/igfb, grapple, morph, gravity",
+                            "{@tpg/igfb, grapple}",
+                            "@tpg/igfotp, morph, bomb, ice, plasma, [anyjump], flash",
+                            "@tpg/igfotp, morph, bomb, pb, plasma, [@can/fly]",
+                            "@tpg/igfotp, morph, bomb, ice, plasma, [anyjump], speed",
+                            "{@tpg/igfb, plasma, ice}",
+                            "{@tpg/igfotp, morph, bomb, ice, plasma, [anyjump]}"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ghavoran",
+                                "x": 203,
+                                "y": 610
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Right Entrance)",
+                        "access_rules": [
+                            "@tpg/igfb, grapple, morph, anyjump",
+                            "@tpg/igfb, grapple, morph, bomb, [anyjump]",
+                            "@tpg/igfb, grapple, morph, gravity",
+                            "{@tpg/igfb, grapple}",
+                            "@tpg/igfotp, morph, bomb, ice, plasma, [anyjump], grapple",
+                            "@tpg/igfotp, morph, bomb, pb, plasma, [anyjump], grapple"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ghavoran",
+                                "x": 356,
+                                "y": 665
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile+ (Above Super Missiles)",
+                        "access_rules": [
+                            "@tpg/igfb, grapple, morph, bomb, spider, super",
+                            "@tpg/igfd, grapple, super"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ghavoran",
+                                "x": 578,
+                                "y": 574
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Dairon Transport Access)",
+                        "access_rules": [
+                            "@tpg/igfb, grapple, morph, bomb, spider",
+                            "@tpg/igfd, grapple"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ghavoran",
+                                "x": 735,
+                                "y": 633
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Elun Transport Access)",
+                        "access_rules": [
+                            "@tpg/igfb, grapple, morph, bomb, spider, super, speed"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ghavoran",
+                                "x": 663,
+                                "y": 501
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Map Station Hideaway)",
+                        "access_rules": [
+                            "@tp/in_g, gravity, cross, morph",
+                            "@tp/in_g, gravity, [cross], morph, anyjump",
+                            "@tp/in_g, [gravity], space, bomb, morph"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ghavoran",
+                                "x": 637,
+                                "y": 419
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Energy Part (Grapple Shroom)",
+                        "access_rules": [
+                            "@tp/in_g, grapple, anyjump, [ice]",
+                            "@tp/in_g, grapple, speed, [ice]"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ghavoran",
+                                "x": 677,
+                                "y": 347
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Power Bomb Tank (Spin Boost Tower)",
+                        "access_rules": [
+                            "@tp/in_g, anyjump, [ice]",
+                            "@tp/in_g, flash, [anyjump, ice]",
+                            "@tp/in_g, anyjump, [pb]",
+                            "@tp/in_g, flash, [anyjump, pb]"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ghavoran",
+                                "x": 726,
+                                "y": 55
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Above Pulse Radar)",
+                        "access_rules": [
+                            "@tpg/igfotp, charge"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ghavoran",
+                                "x": 871,
+                                "y": 93
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Golzuna Tower Ramp)",
+                        "access_rules": [
+                            "{@tpg/igfotp, charge, anybomb}",
+                            "@tpg/igfotp, charge, ice, speed",
+                            "@tpg/igfotp, charge, pb, speed",
+                            "@tpg/igfotp, charge, cross"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ghavoran",
+                                "x": 925,
+                                "y": 198
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Energy Part (Top of Golzuna Tower)",
+                        "access_rules": [
+                            "@tpg/igfotp, charge, ice, speed",
+                            "@tpg/igfotp, charge, pb, speed",
+                            "@tpg/igfgtp, screw, grapple, speed, morph"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ghavoran",
+                                "x": 935,
+                                "y": 47
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Above Green Teleportal)",
+                        "access_rules": [
+                            "@tpg/igfgtp, screw, cross",
+                            "@tpg/igfotp, charge, ice, speed, cross",
+                            "@tpg/igfotp, charge, pb, speed, cross",
+                            "@tpg/igfotp, charge, ice, speed, anyjump, [cross]",
+                            "@tpg/igfotp, charge, pb, speed, anyjump, [cross]",
+                            "{@tp/in_g}"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ghavoran",
+                                "x": 985,
+                                "y": 273
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Green Teleportal Storm Gate)",
+                        "access_rules": [
+                            "@tpg/igfgtp, bomb, [anyjump], storm",
+                            "@tpg/igfotp, charge, speed, [cross], storm",
+                            "@tpg/igfotp, charge, speed, anyjump, storm",
+                            "{@tp/in_g}"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ghavoran",
+                                "x": 1007,
+                                "y": 295
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Missile (Hanubia Access)",
+                        "access_rules": [
+                            "@tp/in_g, screw, grapple, x",
+                            "@tpg/igfotp, charge, pb, speed, x"
+
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "ghavoran",
+                                "x": 1235,
+                                "y": 161
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "name": "Minor Item",
+                                "item_count": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

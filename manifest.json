@@ -1,0 +1,14 @@
+{
+  "name": "Standard Map Tracker",
+  "game_name": "Metroid Dread",
+  "platform": "switch",
+  "package_version": "0.0.1",
+  "package_uid": "dread_log",
+  "author": "Logarhythmic and somedude1316",
+  "variants": {
+    "standard": {
+        "display_name": "Standard Map Tracker"
+    }
+  }
+}
+  
