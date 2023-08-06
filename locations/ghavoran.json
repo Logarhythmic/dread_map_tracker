@@ -75,8 +75,8 @@
                     {
                         "name": "Blue EMMI",
                         "access_rules": [
-                            "@tp/in_g, anyjump, pb",
-                            "@tp/in_g, anyjump, ice",
+                            "@tp/in_g, [anyjump], pb",
+                            "@tp/in_g, [anyjump], ice",
                             "@tp/in_g, speed, pb",
                             "@tp/in_g, speed, ice",
                             "@tp/in_g, bomb, [anyjump]",
