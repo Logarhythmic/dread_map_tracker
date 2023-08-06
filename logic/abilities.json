@@ -505,8 +505,8 @@
                 "name": "in_g",
                 "access_rules": [
                    "@tpg/igfb, plasma",
-                   "@tpg/igfb, [plasma], pb",
-                   "@tpg/igfb, [plasma], ice",
+                   "@tpg/igfb, pb",
+                   "@tpg/igfb, ice",
                    "@tpg/igfotp, charge, morph, anybomb, ice, anyjump,plasma",
                    "@tpg/igfotp, charge, morph, anybomb, pb, anyjump, plasma",
                    "@tpg/igfotp, charge, morph, bomb, ice, [anyjump], plasma",

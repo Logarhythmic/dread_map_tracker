@@ -121,10 +121,10 @@
                     {
                         "name": "Energy Tank (Spin Boost Tower)",
                         "access_rules": [
-                            "@tp/in_g, anyjump, [ice]",
-                            "@tp/in_g, speed, [ice]",
-                            "@tp/in_g, anyjump, [pb]",
-                            "@tp/in_g, speed, [pb]"
+                            "@tp/in_g, [anyjump], ice",
+                            "@tp/in_g, [anyjump], pb",
+                            "@tp/in_g, [speed], ice",
+                            "@tp/in_g, [speed], pb"
 
                         ],
                         "map_locations": [
@@ -270,8 +270,7 @@
                         "access_rules": [
                             "@tp/in_g, gravity, cross, morph",
                             "@tp/in_g, gravity, [cross], morph, anyjump",
-                            "@tp/in_g, [gravity], space, bomb, morph",
-                            "@tpg/igfb, grapple, [anyjump]"
+                            "@tp/in_g, [gravity], space, bomb, morph"
 
                         ],
                         "map_locations": [
@@ -313,10 +312,10 @@
                     {
                         "name": "Power Bomb Tank (Spin Boost Tower)",
                         "access_rules": [
-                            "@tp/in_g, anyjump, [ice]",
-                            "@tp/in_g, flash, [anyjump, ice]",
-                            "@tp/in_g, anyjump, [pb]",
-                            "@tp/in_g, flash, [anyjump, pb]"
+                            "@tp/in_g, [anyjump], ice",
+                            "@tp/in_g, [anyjump], pb",
+                            "@tp/in_g, [speed], ice",
+                            "@tp/in_g, [speed], pb"
 
                         ],
                         "map_locations": [
