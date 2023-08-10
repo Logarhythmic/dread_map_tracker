@@ -55,9 +55,9 @@
                     {
                         "name": "Purple EMMI",
                         "access_rules": [
-                            "@tp/in_f, [gravity], plasma, grapple, storm, speed",
+                            "@tp/in_f, [gravity], plasma, grapple, storm, speed, screw",
                             "@tp/in_f, screw, wave, [gravity]",
-                            "@tpf/iffh, wave, speed, [gravity]"
+                            "@tpf/iffh, wave, speed, [gravity], screw"
 
                         ],
                         "map_locations": [
@@ -262,10 +262,12 @@
                     {
                         "name": "Energy Part (West Hub)",
                         "access_rules": [
-                            "@tpf/iffdl, speed",
-                            "@tpf/iffg, wave, [gravity], screw",
-                            "{@tp/in_g, cross, space}",
-                            "@tp/in_g, pb, speed"
+                            "@tpf/iffdl, speed, screw",
+                            "@tpf/iffg, speed, bomb, [gravity]",
+                            "@tpf/iffg, speed, bomb, [cross, gravity]",
+                            "@tpf/iffg, speed, pb, [gravity]",
+                            "{@tp/in_f, cross, space}",
+                            "@tp/in_f, pb, speed"
 
                         ],
                         "map_locations": [
@@ -366,7 +368,8 @@
                     {
                         "name": "Missile (Cold Spark Tunnel)",
                         "access_rules": [
-                            "@tp/in_f, [gravity], plasma, grapple, storm, speed"
+                            "@tp/in_f, [gravity], plasma, grapple, speed"
+                            
 
                         ],
                         "map_locations": [

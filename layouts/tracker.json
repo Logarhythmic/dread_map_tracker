@@ -14,9 +14,9 @@
                         "item_margin": "6,1",
                         "h_alignment": "left",
                         "rows": [
-                            [ "anybeam"    , "charge" , "grapple" , "morph", "anybomb" , "pb"    ],
-                            [ "anymissile" ,  "storm" ,  "spider" , "speed", "anyjump" , "screw" ],
-                            [ "anysuit"    ,  "cloak" ,  "flash"  , "radar",     ""    , "go"    ]
+                            [ "wide"    , "charge" , "grapple" , "morph", "bomb" , "pb"    ],
+                            [ "anymissile" ,  "storm" ,  "spider" , "speed"   , "anyjump" , "screw" ],
+                            [ "anysuit"    ,  "cloak" ,  "flash"  , "radar"   ,  "etank"  , "epart" ]
                         ]
                     },
                     {
@@ -33,7 +33,7 @@
                                 "rows": [
                                     [ "white",  "green" ,  "yellow"       ],
                                     [ "blue" ,  "purple",   "red"         ],
-                                    [   ""   ,    "qr"  ,     "x"         ]
+                                    [   "qr" ,     "x"  ,   "go"          ]
                                 ]
                             }
                         ]

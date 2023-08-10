@@ -217,11 +217,12 @@
             { // In Cataris From Artaria
                 "name": "icfa",
                 "access_rules": [
-                    "morph, varia, charge",
+                    "charge, morph, [varia]",
                     "charge, cloak, spider",
                     "charge, cloak, anyjump",
                     "charge, cloak, speed",
-                    "charge, cloak, flash"
+                    "charge, cloak, flash",
+                    "charge, cloak, bomb"
                 ],
                 "item_count": 1
             },

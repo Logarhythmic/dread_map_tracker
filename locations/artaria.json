@@ -27,10 +27,10 @@
                     {
                         "name": "Corpius",
                         "access_rules": [
-                            "spider",
-                            "cloak",
-                            "diffusion",
-                            "wave"
+                            "[spider]",
+                            "[cloak]",
+                            "[diffusion]",
+                            "[wave]"
                         ],
                         "map_locations": [
                             {
@@ -417,11 +417,11 @@
                     {
                         "name": "Missile (Heated Elevator Access)",
                         "access_rules": [
-                            "charge,varia,anyjump",
-                            "charge,varia,flash",
-                            "charge,varia,speed",
-                            "charge,varia,morph,bomb",
-                            "charge,varia,morph,cross",
+                            "charge,[varia],anyjump",
+                            "charge,[varia],flash",
+                            "charge,[varia],speed",
+                            "charge,[varia],morph,bomb",
+                            "charge,[varia],morph,cross",
                             "{charge}"
                         ],
                         "map_locations": [

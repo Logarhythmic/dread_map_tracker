@@ -252,7 +252,7 @@
                     {
                         "name": "Missile (Under Rail Controls)",
                         "access_rules": [
-                            "charge, [varia]",
+                            "charge, morph, [varia]",
                             "charge, spider, [varia]",
                             "charge, @can/fly, [varia]",
                             // Visibility Rules
@@ -278,10 +278,12 @@
                     {
                         "name": "Missile (Above Blue Teleportal)",
                         "access_rules": [
-                            "morph, varia, @can/fly, anybomb",
-                            "{morph, spider, [varia]}",
-                            "{morph, @can/fly, [varia]}",
-                            "{morph, speed, [varia]}"
+                            "morph, [varia], bomb",
+                            "morph, [varia], cross",
+                            "morph, [varia, anyjump], pb",
+                            "{morph, spider, charge}",
+                            "{morph, anyjump, charge}",
+                            "{morph, speed, charge}"
 
                         ],
                         "map_locations": [
@@ -302,9 +304,8 @@
                         "name": "Missile (Rock Cages)",
                         "access_rules": [
                             "varia, morph, anybomb, wide, charge",
-                            "{morph, spider, [varia]}",
-                            "{morph, @can/fly, [varia]}",
-                            "{morph, speed, [varia]}"
+                            "varia, morph, anybomb, [wide], charge, diffusion",
+                            "{morph, pb, varia}"
                         ],
                         "map_locations": [
                             {
@@ -383,7 +384,7 @@
                         ]
                     },
                     {
-                        "name": "Z57",
+                        "name": "Experiment No. Z-57",
                         "access_rules": [
                             "@event/x"
                         ],

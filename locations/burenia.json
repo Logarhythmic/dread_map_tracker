@@ -14,7 +14,8 @@
                             "@tpb/ibfd, morph, spider",
                             "@tpb/ibfd, morph, anyjump",
                             "@tpb/ibfd, morph, flash",
-                            "@tpb/ibfd, morph, grapple"
+                            "@tpb/ibfd, morph, grapple",
+                            "@tpb/ibfgt, plasma"
 
                         ],
                         "map_locations": [
@@ -68,7 +69,10 @@
                             "{@tpb/ibfd, morph, spider}",
                             "@tpb/ibfd, morph, anyjump",
                             "@tpb/ibfd, morph, flash",
-                            "@tpb/ibfd, morph, grapple"
+                            "@tpb/ibfd, morph, grapple",
+                            "@tpb/ibfgtp, plasma, flash",
+                            "@tpb/ibfgtp, plasma, anyjump",
+                            "@tpb/ibfgtp, plasma, grapple"
 
                         ],
                         "map_locations": [
@@ -89,11 +93,11 @@
                         "name": "Energy Tank (Lower Storm Gate)",
                         "access_rules": [
                             "@tpb/ibfd, morph, spider, grapple, bomb, plasma, storm",
-                            "@tpb/ibfgsr, @can/pb, gravity, screw, @can/fly, storm",
-                            "@tpb/ibfgsr, @can/pb, gravity, screw, speed, storm",
+                            "@tpb/ibfgsr, pb, gravity, screw, storm",
+                            "@tpb/ibfgsr, pb, gravity, screw, storm",
                             "{@tpb/ibfd, morph, spider, grapple, bomb, plasma}",
-                            "{@tpb/ibfgsr, @can/pb, gravity, screw, @can/fly}",
-                            "{@tpb/ibfgsr, @can/pb, gravity, screw, speed}"
+                            "{@tpb/ibfgsr, pb, gravity, screw}",
+                            "{@tpb/ibfgsr, pb, gravity, screw}"
 
                         ],
                         "map_locations": [
@@ -234,7 +238,10 @@
                             "@tpb/ibfd, morph, spider",
                             "@tpb/ibfd, morph, anyjump",
                             "@tpb/ibfd, morph, flash",
-                            "@tpb/ibfd, morph, grapple"
+                            "@tpb/ibfd, morph, grapple",
+                            "@tpb/ibfgtp, plasma, flash, [spider]",
+                            "@tpb/ibfgtp, plasma, anyjump",
+                            "@tpb/ibfgtp, plasma, grapple"
 
                         ],
                         "map_locations": [
@@ -282,7 +289,8 @@
                             "@tpb/ibfd, morph, anyjump",
                             "@tpb/ibfd, morph, gravity",
                             "@tpb/ibfd, morph, grapple",
-                            "@tpb/ibfd, morph, bomb, [spider]"
+                            "@tpb/ibfd, morph, bomb, [spider]",
+                            "@tob/ibfgt, plasma"
 
                         ],
                         "map_locations": [
@@ -302,7 +310,8 @@
                     {
                         "name": "Missile (Spark Ceiling)",
                         "access_rules": [
-                            "@tpb/ibfd, morph, gravity, speed"
+                            "@tpb/ibfd, morph, gravity, speed",
+                            "@tpb/ibfgtp, gravity, speed, plasma"
 
                         ],
                         "map_locations": [
@@ -325,8 +334,8 @@
                             "@tpb/ibfd, morph, spider, grapple, bomb, plasma",
                             "@tpb/ibfd, morph, spider, gravity, bomb, plasma",
                             "@tpb/ibfd, morph, spider, space, bomb, plasma",
-                            "@tpb/ibfgsr, @can/pb, gravity, screw, @can/fly",
-                            "@tpb/ibfgsr, @can/pb, gravity, screw, speed"
+                            "@tpb/ibfgsr, pb, gravity, screw",
+                            "@tpb/ibfgsr, pb, gravity, screw"
 
                         ],
                         "map_locations": [
@@ -346,11 +355,11 @@
                     {
                         "name": "Power Bomb (Below Gravity)",
                         "access_rules": [
-                            "@tpb/ibfd, morph, spider, grapple, bomb, plasma, speed, @can/pb",
-                            "@tpb/ibfd, morph, spider, gravity, bomb, plasma, screw, @can/pb, speed",
-                            "@tpb/ibfd, morph, spider, space, bomb, plasma, screw, @cam/pb, speed",
-                            "@tpb/ibfgsr, @can/pb, gravity, screw, @can/fly, speed",
-                            "@tpb/ibfgsr, @can/pb, gravity, screw, speed"
+                            "@tpb/ibfd, morph, spider, grapple, bomb, plasma, speed, pb",
+                            "@tpb/ibfd, morph, spider, gravity, bomb, plasma, screw, pb, speed",
+                            "@tpb/ibfd, morph, spider, space, bomb, plasma, screw, pb, speed",
+                            "@tpb/ibfgsr, pb, gravity, speed",
+                            "@tpb/ibfgsr, pb, gravity, speed"
 
                         ],
                         "map_locations": [
@@ -417,10 +426,10 @@
                         "name": "Missile (Artaria Access)",
                         "access_rules": [
                             "@tpb/ibfa",
-                            "{@tpb/ibgtp, @can/pb, speed, grapple, diffusion, gravity}",
-                            "{@tpb/ibgtp, ic, morph, anybomb, speed, grapple, diffusion, gravity}",
-                            "{@tpb/ibgtp, @can/pb, speed, grapple, wave, gravity}",
-                            "{@tpb/ibgtp, ic, morph, anybomb, speed, grapple, wave, gravity}"
+                            "{@tpb/ibfgtp, pb, speed, grapple, diffusion, gravity}",
+                            "{@tpb/ibfgtp, ice, anybomb, speed, grapple, diffusion, gravity}",
+                            "{@tpb/ibfgtp, pb, speed, grapple, wave, gravity}",
+                            "{@tpb/ibfgtp, ice, anybomb, speed, grapple, wave, gravity}"
 
                         ],
                         "map_locations": [
@@ -441,10 +450,10 @@
                         "name": "Missile+ (Gravity Tower)",
                         "access_rules": [
                             "@tpb/ibfa",
-                            "{@tpb/ibgtp, @can/pb, speed, grapple, diffusion, gravity}",
-                            "{@tpb/ibgtp, ic, morph, anybomb, speed, grapple, diffusion, gravity}",
-                            "{@tpb/ibgtp, @can/pb, speed, grapple, wave, gravity}",
-                            "{@tpb/ibgtp, ic, morph, anybomb, speed, grapple, wave, gravity}"
+                            "{@tpb/ibfgtp, pb, speed, grapple, diffusion, gravity}",
+                            "{@tpb/ibfgtp, ice, anybomb, speed, grapple, diffusion, gravity}",
+                            "{@tpb/ibfgtp, pb, speed, grapple, wave, gravity}",
+                            "{@tpb/ibfgtp, ice, anybomb, speed, grapple, wave, gravity}"
 
                         ],
                         "map_locations": [

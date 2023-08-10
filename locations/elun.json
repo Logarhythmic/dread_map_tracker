@@ -120,7 +120,8 @@
                     {
                         "name": "Power Bomb Tank (Morph Maze)",
                         "access_rules": [
-                            "@tp/in_e, morph, bomb, plasma"
+                            "@tp/in_e, morph, bomb, plasma",
+                            "{@tp/in_e, morph, bomb}"
 
                         ],
                         "map_locations": [
